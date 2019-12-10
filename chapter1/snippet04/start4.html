@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My first React app</title>
+  <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>  
+  <style>
+      #root {
+        padding: 2rem;
+        margin: 2rem;
+        background-color: #DDD;
+        border: medium solid #001ca8;
+        border-radius: 0.5rem;        
+      }
+      #root h1 {
+        font: bold 2rem sans-serif;      
+        color: #001ca8;
+      }
+    </style>  
+</head>
+<body>
+  <div id="root"/>
+  <script type="text/babel">
+    ReactDOM.render(
+      <h1>Welcome to my first React app!</h1>,
+      document.getElementById('root')
+    );
+  </script>
+</body>
+</html>
