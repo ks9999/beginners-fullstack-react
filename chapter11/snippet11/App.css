@@ -1,0 +1,66 @@
+body {
+  background-color: #F4F7F9;
+  padding: 30px;
+  margin: 10;
+  font-family: sans-serif;
+}
+
+.navpage {
+  background-color: #DAF7A6;
+  padding: 20px;
+}
+
+.navpage h1 h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.navpage li {
+  margin-bottom: 10px;
+}
+
+.active {
+  background-color: rgb(13, 138, 221);
+}
+
+ul.navbar {
+  padding: 0;
+  background-color: black;
+}
+
+ul.navbar li {
+  display: inline;
+}
+
+ul.navbar li a {
+  padding: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: White;
+  display: inline-block;
+}
+
+ul.navsidebar {
+  padding: 0;
+
+  background-color: #DAF7A6;
+}
+
+ul.navsidebar li {
+  list-style-type: ""
+}
+
+ul.navsidebar li a {
+
+  font-weight: bold;
+
+  color: Black;
+
+}
+
+.sidepage {
+  width: 80%;
+  height: 400px;
+  background-color: rgb(172, 189, 243);
+  padding: 20px;
+}
