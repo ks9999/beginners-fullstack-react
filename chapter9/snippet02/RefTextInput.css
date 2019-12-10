@@ -1,0 +1,25 @@
+.RefApp div {
+    margin: 10;
+}
+
+.RefApp input {
+  padding: 12px;
+  font-size: 18px;
+  border: 2px solid #CCC;
+}
+
+.RefApp button {
+  padding: 12px;
+  font-size: 18px;
+  margin: 10px;
+  background-color: #777;
+  color: #FFF;
+  border: 2px solid #777;
+  border-radius: 10px;
+}
+
+.RefApp button:hover {
+  background-color: #333;
+  border-color: #333;
+  cursor: pointer;
+}
