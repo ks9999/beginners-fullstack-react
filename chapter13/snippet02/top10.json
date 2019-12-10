@@ -1,0 +1,172 @@
+[
+    {
+        "title": "The Shawshank Redemption",
+        "year": 1994,
+        "rating": 9.3,
+        "duration": 142,
+        "category": "Drama",
+        "director": "Frank Darabont",
+        "votes": 2163775,
+        "gross": 28.34,
+        "cover": "/pubdist/images/The Shawshank Redemption.jpg",
+        "stars": [
+            {"name": "Tim Robbins"},
+            {"name": "Morgan Freeman"},
+            {"name": "Rob Gunton"},
+            {"name": "William Sadler"}
+        ]
+    },
+    {
+        "title": "The Godfather",
+        "year": 1972,
+        "rating": 9.2,
+        "duration": 175,
+        "category": "Crime, Drama",
+        "director": "Francis Ford Coppola",
+        "votes": 1485273,
+        "gross": 134.97,
+        "cover": "/pubdist/images/The Godfather.jpg",
+        "stars": [
+            {"name": "Marlon Brando"},
+            {"name": "Al Pacino"},
+            {"name": "James Caan"},
+            {"name": "Diane Keaton"}         
+        ]
+    },   
+    {
+        "title": "The Dark Knight",
+        "year": 2008,
+        "rating": 9,
+        "duration": 152,
+        "category": "Action, Crime, Drama",
+        "director": "Christopher Nolan",
+        "votes":  2138650,
+        "gross": 534.86,
+        "cover": "/pubdist/images/The Dark Knight.jpg",
+        "stars": [
+            {"name": "Christian Bale"},
+            {"name": "Heath Ledger"},
+            {"name": "Aaron Eckhart"},
+            {"name": "Michael Caine"}         
+        ]
+    },  
+    {
+        "title": "Pulp Fiction",
+        "year": 1994,
+        "rating": 8.9,
+        "duration": 154,
+        "category": "Crime, Drama",
+        "director": "Quentin Tarantino",
+        "votes":  1698608,
+        "gross": 107.93,
+        "cover": "/pubdist/images/Pulp Fiction.jpg",
+        "stars": [
+            {"name": "John Travolta"},
+            {"name": "Uma Thurman"},
+            {"name": "Samuel L. Jackson"},
+            {"name": "Bruce Willis"}         
+        ]
+    },
+    {
+        "title": "Schindler's List",
+        "year": 1993,
+        "rating": 8.9,
+        "duration": 195,
+        "category": "Biography, Drama, History",
+        "director": "Steven Spielberg",
+        "votes":  1122526,
+        "gross": 96.90,
+        "cover": "/pubdist/images/Schindler's List.jpg",
+        "stars": [
+            {"name": "Liam Neeson"},
+            {"name": "Ralph Fiennes"},
+            {"name": "Ben Kingsley"},
+            {"name": "Caroline Goodall"}         
+        ]
+    },
+    {
+        "title": "The Lord of the Rings",
+        "year": 2003,
+        "rating": 8.9,
+        "duration": 201,
+        "category": "Adventure, Drama, Fantasy",
+        "director": "Peter Jackson",
+        "votes":  1536316,
+        "gross": 377.85,
+        "cover": "/pubdist/images/The Lord of the Rings.jpg",
+        "stars": [
+            {"name": "Elijah Wood"},
+            {"name": "Viggo MortensenFiennes"},
+            {"name": "Ian McKellen"},
+            {"name": "Orlando Bloom"}         
+        ]
+    },    
+    {
+        "title": "Fight Club",
+        "year": 1999,
+        "rating": 8.8,
+        "duration": 139,
+        "category": "Drama",
+        "director": "David Fincher",
+        "votes":  1728710,
+        "gross": 37.03,
+        "cover": "/pubdist/images/Fight Club.jpg",
+        "stars": [
+            {"name": "Brad Pitt"},
+            {"name": "Edward Norton"},
+            {"name": "Meat Loaf"},
+            {"name": "Zach Grenier"}         
+        ]
+    },  
+    {
+        "title": "Forrest Gump",
+        "year": 1994,
+        "rating": 8.8,
+        "duration": 142,
+        "category": "Drama, Romance",
+        "director": "Robert Zemeckis",
+        "votes":  1666137,
+        "gross": 330.25,
+        "cover": "/pubdist/images/Forrest Gump.jpg",
+        "stars": [
+            {"name": "Tom Hanks"},
+            {"name": "Robin Wright"},
+            {"name": "Gary Sinise"},
+            {"name": "Sally Field"}         
+        ]
+    },  
+    {
+        "title": "The Matrix",
+        "year": 1999,
+        "rating": 8.7,
+        "duration": 136,
+        "category": "Action, Sci-Fi",
+        "director": "Lana Wachowski",
+        "votes":  1557529,
+        "gross": 171.48,
+        "cover": "/pubdist/images/The Matrix.jpg",
+        "stars": [
+            {"name": "Keanu Reeves"},
+            {"name": "Laurence Fishburne"},
+            {"name": "Carrie-Anne Moss"},
+            {"name": "Hugo Weaving"}         
+        ]
+    }, 
+    {
+        "title": "Star Wars",
+        "year": 1977,
+        "rating": 8.6,
+        "duration": 121,
+        "category": "Action, Adventure, Fantasy",
+        "director": "George Lucas",
+        "votes":  1149642,
+        "gross": 322.74,
+        "cover": "/pubdist/images/Star Wars.jpg",
+        "stars": [
+            {"name": "Mark Hamill"},
+            {"name": "Harrison Ford"},
+            {"name": "Carrie Fisher"},
+            {"name": "Alec Guinness"}         
+        ]
+    }    
+]
