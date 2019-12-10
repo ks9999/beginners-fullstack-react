@@ -1,0 +1,30 @@
+.App {
+
+}
+.App button {
+  padding: 0px;
+  font-size: 18px;
+  margin: 10px;
+  background-color: #777;
+  color: #FFF;
+  border: 2px solid #777;
+  border-radius: 3px;
+}
+
+.App button:hover {
+  background-color: #333;
+  border-color: #333;
+  cursor: pointer;
+}
+
+.App input {
+  padding: 0px;
+  font-size: 18px;
+  margin: 10px;
+  border: 2px solid #777;
+  border-radius: 3px;
+}
+
+.App label {
+  margin: 10px;
+}

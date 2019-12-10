@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Redux Simple Example -- with no React</title>
+    <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
+  </head>
+  <body>
+    <div style="margin:25px;">
+        Shopping list item count: <span id="value">0</span><br/>
+        <div id="list"></div>
+        <input id="item" type="text" placeholder="Enter an item"/><br/>
+        <button id="add">Add to list</button>
+        <button id="remove">Remove from list</button>
+    </div>
+    <script>
+      function shopList(state, action) {
+        if (typeof state === 'undefined') {
+          return []
+        }
+
+        switch (action.type) {
+          case 'ADD':
+            return [...state, action.data]
+          case 'REMOVE':         
+            return state.filter( item=> item != action.data)
+          default:
+            return state
+        }
+      }
+
+      var store = Redux.createStore(shopList)
+      var spanElement = document.getElementById('value')
+      var divElement = document.getElementById('list')
+
+      function render() {
+        spanElement.innerHTML = (store.getState().length).toString();
+        let listText =  ''
+        let i;
+        for (i = 0; i < store.getState().length; ++i) {
+            listText += store.getState()[i] + ' '
+        }
+        divElement.innerHTML = listText
+      }
+
+      render()
+      
+      store.subscribe(render)
+      store.subscribe(() => console.log(store.getState()));
+
+      document.getElementById('add')
+        .addEventListener('click', function () {
+          store.dispatch({ type: 'ADD', data: document.getElementById('item').value})
+        })
+
+      document.getElementById('remove')
+        .addEventListener('click', function () {
+          store.dispatch({ type: 'REMOVE', data: document.getElementById('item').value})
+        })
+
+    </script>
+  </body>
+</html>
